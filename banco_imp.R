@@ -3,7 +3,8 @@
 library(dplyr)
 library(janitor)
 library(data.table)
-library(openxlsx)
+library(xlsx)
+library(ggmap)  
 
 # Importando os arquivos do IMP que foram baixados e já selecionando o último ano de cada levantamento
 
@@ -64,5 +65,17 @@ cols.num <- cols[!cols %in% col.car]
 banco_imp[cols.num] <- sapply(banco_imp[cols.num],as.numeric)
 
 
+# Agora calculando latitude e longitude nesses municípios:
 
+key <- ""
+register_google(key = key)
 
+banco_imp <- banco_imp %>%
+  mutate(local = paste0(localidades, ", São Paulo, Brasil")) %>%
+  mutate_geocode(local) %>%
+  select(-c(local))
+
+ 
+setwd("~/R-Projects/ERPAD_TERA")
+xlsx::write.xlsx(banco_imp, file="banco_imp.xlsx", row.names(FALSE))
+save(banco_imp, file="banco_imp.Rdata")
