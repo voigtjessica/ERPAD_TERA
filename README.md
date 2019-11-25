@@ -16,9 +16,14 @@ Dados públicos são úteis e abundantes, mas por vezes eles são defasados e/ou
 
 |nome|descrição|
 |---|---|
-|IDH|Indicador que sintetiza três aspectos do desenvolvimento humano: vida longa e saudável, acesso a conhecimento e padrão de vida, traduzidos nas dimensões de longevidade, educação e renda.
+|IDH|Indicador que sintetiza três aspectos do desenvolvimento humano: vida longa e saudável, acesso a conhecimento e padrão de vida, traduzidos nas dimensões de longevidade, educação e renda.Quanto mais próximo de 1, maior o desenvolvimento humano no município|
+|localidades|Município|
+|razão de sexos|Número de homens para cada 100 mulheres na população residente em determinada área, no ano considerado|
+|grau_de_urbanizacao_em_percent|Percentual da população urbana em relação à população total. É calculado, geralmente, a partir de dados censitários, segundo a fórmula|
+|renda_per_capta_2010|Soma do rendimento nominal mensal das pessoas com 10 anos ou mais residentes em domicílios particulares ou coletivos, dividida pelo total de pessoas residentes nesses domicílios.Valores correntes de 2010|
+|cresc_perc_medio_2010_2019|Expressa, em termos percentuais, o crescimento médio da população em determinado período de tempo|
 
-Quanto mais próximo de 1, maior o desenvolvimento humano no município|
+
 
 
 ### Faixas IDH
