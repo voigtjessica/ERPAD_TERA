@@ -6,7 +6,7 @@ Durante o nosso curso de hoje, iremos trabalhar com um case hipotético que ter�
 
 ## Case
 
-*O seu grupo trabalha para uma pequena editora que possui o seu catálogo dividido em coleções. Essa editora está desenhando uma nova estratégia de vendas para o estado de São Paulo e quer escolher alguns municípios para inaugurar lojas físicas. Ela deslocará o centro de distribuição para atender a essas cidades, então é importante que elas sejam próximas umas das outras. Utilize dados públicos acerca da população e da renda para traçar uma estratégia de negócios para a editora, sugerindo, se possível, uma coleção para ficar em destaque nas lojas físicas.*
+*O seu grupo trabalha para uma pequena editora que acabou de comprar um catálogo dividido em coleções. Essa editora está desenhando uma estratégia de vendas para o estado de São Paulo e quer escolher dois ou três municípios para inaugurar lojas físicas, voltados para um público determinado. Ela deslocará o centro de distribuição para atender a essas cidades, então é importante que elas sejam próximas umas das outras. *
 
 ## Banco
 
